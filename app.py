@@ -20,7 +20,7 @@ class TodoModel(db.Model):
     def __repr__(self):
         return '<TodoModel %s>' % self.task
 
-db.create_all()
+# db.create_all()
 
 
 task_post_args = reqparse.RequestParser()
